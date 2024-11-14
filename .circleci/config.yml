@@ -103,4 +103,4 @@ workflows:
       - sast-sca-and-deploy:
           filters:
             branches:
-              only: main  # Adjust this to your main branch name
+              only: master  # Adjust this to your main branch name
